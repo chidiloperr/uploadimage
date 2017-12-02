@@ -9,8 +9,8 @@ require 'Api.php';
 
 \Cloudinary::config(array( 
   "cloud_name" => "dnuraq8oa", 
-  "api_key" => "274545435744652", 
-  "api_secret" => "jflXJqU3PYSSqtRUAoVz3F1D4dU" 
+  "api_key" => "853945793199376", 
+  "api_secret" => "sqPnQQplUawdf6pw2vHEJnO2TOY" 
 ));
 
 $target_dir = "uploads/";
@@ -38,7 +38,7 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
 && $imageFileType != "gif" ) {
-    echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+    echo "Hello user!, only JPG, JPEG, PNG & GIF files are allowed.";
     $uploadOk = 0;
 }
 // Check if $uploadOk is set to 0 by an error
